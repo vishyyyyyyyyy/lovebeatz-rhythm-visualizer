@@ -1,0 +1,107 @@
+
+
+html, body {
+      margin: 0;
+      padding: 0;
+      background:#000000;
+      overflow: hidden;
+    }
+
+
+#audioUpload {
+  display: none; /* hide the real file input */
+}
+
+
+label[for="audioUpload"] {
+  background-color: #ff3366;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s ease;
+  position: fixed; /* fixed on screen */
+  bottom: 1%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* offset by half width & height to center */
+  z-index: 1000;
+  
+}
+
+label[for="audioUpload"]:hover {
+  background-color: #ff5588;
+
+}
+
+
+#nowPlayingContainer {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #FF0064;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  z-index: 100;
+  user-select: none;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:10px; /* space between children */
+  width: max-content; /* shrink to fit contents */
+}
+
+
+#nowPlayingTitle {
+  font-weight: 800;
+  font-size: 30px;
+  text-shadow: 0 0 15px #FF66AA;
+  margin-bottom: 5px;
+  
+}
+
+#nowPlayingName {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  max-width: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
+
+#playPauseBtn {
+  background-color: #FF0064;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  user-select: none;
+}
+
+#playPauseBtn:disabled {
+  background-color: #ff5588;
+  cursor: not-allowed;
+}
+label[for="audioUpload"]:hover {
+  background-color: #ff5588;
+
+}
+
+
+#name{
+  font-weight: 900;
+  font-size: 50px;
+  color: #ff0066;
+  /* -webkit-text-stroke: 2px black; */
+  text-shadow: 0 0 30px#FF66AA;
+  margin-bottom: 0px;
+  
+}
