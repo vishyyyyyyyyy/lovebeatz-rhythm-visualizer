@@ -1,6 +1,7 @@
 # 🩷 LoveBeatz Rhythm Visualizer 🩷
 
-## This is my entry for the Codedex monthly cahllenge!
+## This is my entry for the Codedex monthly challenge!
+https://www.codedex.io/community/monthly-challenge/submission/vdHXBjCTZ8CUHp86e0ea 
 
 
 When I saw this month’s challenge theme, I knew my rhythm visualizer had to be heart-themed! Since I had never used p5.js before, I started by watching the p5.js coding workshop and taking the beginner course on Codedex to learn the basics.
